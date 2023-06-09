@@ -1,11 +1,14 @@
-export default function Home() {
+export default function About() {
   return (
     <div>
-      <div>
-        <h4 className='title'>재원 블로그</h4>
-        <p className='title-sub'>by dev jang</p>
-        <p className='title-sub'>testing website with NextJs13</p>
+      <h4 className='title'>나의 소개</h4>
+      <div className='title-sub'>
+        <p>이름 : 장재원</p>
+        <p>출생 : 2001년</p>
+        <p>MBTI : ISFP</p>
+        <p></p>
       </div>
+
       <footer>
         <nav>
           <a href='https://jjwpr.tistory.com/manage' target='_blank'>
